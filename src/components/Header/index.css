@@ -1,0 +1,76 @@
+.main-container {
+  display: flex;
+
+  justify-content: space-between;
+  padding: 20px;
+}
+.insta-logo-and-name {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.search-and-home-profile-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.nav-links-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  list-style: none;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.insta-name {
+  font-size: 20px;
+  margin-left: 10px;
+}
+.logout-button {
+  background-color: blue;
+  color: #ffffff;
+  border: none;
+  border-radius: 2px;
+}
+.nav-item {
+  list-style: none;
+  margin-left: 10px;
+  text-decoration: none;
+}
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 70px;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  height: 20px;
+  width: 200px;
+  left: 780px;
+  top: 18px;
+}
+.search-bar {
+  border-style: none;
+  outline: none;
+  font-family: 'roboto';
+  width: 180px;
+  padding: 5px;
+}
+.search-button {
+  border-style: none;
+  width: 30px;
+  border-radius: 2px;
+}
+.search-icon-button {
+  background: #dbdbdb;
+  border-radius: 2px;
+  border-style: none;
+  width: 30px;
+}
+.search-icon {
+  color: #989898;
+}
